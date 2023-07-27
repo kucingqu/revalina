@@ -1,10 +1,10 @@
 input {
-     width: 100%;
+width: 30%;
 background-color: transparent; 
 margin-bottom: 2em;
 font-size: 20px; 
 padding: 1em 0.5em 0.5em; 
-border-bottom: 2px solid #e43d3d;
+border-bottom: 5px solid #e43d3d;
 }
 #submit {
 position: relative;
@@ -15,7 +15,7 @@ background-color: #1a9627;
 color: white;
 padding: 0.80em 0;
 margin-top: 2em; 
-border-radius: 0.3em;
+border-radius: 20.3%;
 }
 #message-ref {
 font-size: 0.9em; 
@@ -30,16 +30,16 @@ box-sizing: border-box;
 font-family: "Poppins", sans-serif;
 }
 body {
-background-color: #6628eb; 
+background-color: #bbccc9; 
 }
 .container {
-width: 31.25em;
+width: .25em;
 background-color: #f8f8f8;
 padding: 1.4em 3.75em; 
-position: absolute;
+position: relative;
 transform: translate (-50%, -50%);
 top: 50%; left: 50%;
-border-radius: 0.7em; 
+border-radius: 10.7em; 
 box-shadow: 1em 4em rgba(8, 255, 3, 0.932);
 }
 h2{
@@ -50,7 +50,7 @@ margin-bottom: 30px;
 }
 input,
 #submit {
-border: none;
+border: 20px;
 outline: none;
 display: block;
 }

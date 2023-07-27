@@ -3,8 +3,13 @@
     <title>KUKU!</title>
           <meta charsert="UTF-8">
           <link rel="stylesheet" href="./dua.css">
-          
-        
+          <style>
+            button{
+              background-color:black; 
+              border-color:black; 
+              color:white
+            }
+        </style>
                    <div style="background-color:#131216"background-size:100% 100%;
  padding:50px><p style ="color:white;font-size:50px;text-align:left;Font-style:monumental">KUKU!</p>
                    <form method="POST"action="1.php">
@@ -41,10 +46,10 @@ rel="stylesheet"
 <body>
 <div class="containers">
   <h2> Advance Input Box</h2>
-<input type="text" placeholder="Username" id="username" />
-<input type="password" placeholder="Password" id="password" />
+<center><input type="text" placeholder="Username" id="username" /></center>
+<center><input type="password" placeholder="Password" id="password" /></center>
 
-<a href="3.php">SUBMIT</a>
+<center><a href="3.php">SUBMIT</a></center>
 <p id="message-ref">Signed Up Successfully!</p>
 </div>
 <!-- Script -->
@@ -55,14 +60,6 @@ rel="stylesheet"
 </body>
 </html>
   
-  <button type="submit">kembali</button>
+  <center><button type="submit"><big>kembali</big></button></center>
 </form>
 </html>
-<html>
-  <head>
-          </head>
-          <body>
-            <form method="POST"action="3.php">
-              <button type="submit">next</button>
-          </body>
-          </html>
